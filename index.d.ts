@@ -1,10 +1,8 @@
-declare interface Optional<T> {
-  isNil: boolean
-  valueOf(): T
-}
-
-declare const nil: Optional<any>
-
 interface Object {
-  isNil: boolean
+    isNil: boolean;
 }
+declare class Nil {
+    isNil: boolean;
+}
+declare type Optional<T> = T | Nil;
+declare const nil: Nil;

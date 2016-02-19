@@ -1,6 +1,8 @@
-var nil = Object.create({
-  isNil: true,
-  valueOf: function() { return undefined }
-});
-(global || window).nil = nil;
+var Nil = (function () {
+    function Nil() {
+        this.isNil = true;
+    }
+    return Nil;
+}());
+(global || window).nil = new Nil();
 Object.prototype.isNil = false;
