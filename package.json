@@ -1,0 +1,23 @@
+{
+  "name": "ts-optional",
+  "version": "1.0.0",
+  "description": "Optional types for TypeScript",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilniklas/ts-optionals.git"
+  },
+  "scripts": {
+    "test": "tsc --noEmit && node test"
+  },
+  "keywords": [
+    "typescript",
+    "optional"
+  ],
+  "author": "Emil Persson <emil.n.persson@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emilniklas/ts.optional/issues"
+  },
+  "homepage": "https://github.com/emilniklas/ts.optional#readme"
+}
